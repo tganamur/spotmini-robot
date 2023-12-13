@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: spotmini_model
+    relative_path: urdf/spotmini.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/spotmini_model.srdf
+  CONFIG:
+    author_name: Tarun S. Ganamur
+    author_email: tganamur@gmail.com
+    generated_timestamp: 1701583892

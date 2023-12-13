@@ -1,0 +1,88 @@
+fr_leg_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - front_right_shoulder
+    - front_right_leg
+    - front_right_foot
+  gains:
+    front_right_shoulder:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    front_right_leg:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    front_right_foot:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+fl_leg_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - front_left_shoulder
+    - front_left_leg
+    - front_left_foot
+  gains:
+    front_left_shoulder:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    front_left_leg:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    front_left_foot:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+rl_leg_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - rear_left_shoulder
+    - rear_left_leg
+    - rear_left_foot
+  gains:
+    rear_left_shoulder:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rear_left_leg:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rear_left_foot:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+rr_leg_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - rear_right_shoulder
+    - rear_right_leg
+    - rear_right_foot
+  gains:
+    rear_right_shoulder:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rear_right_leg:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rear_right_foot:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

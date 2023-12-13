@@ -1,0 +1,33 @@
+controller_list:
+  - name: fr_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - front_right_shoulder
+      - front_right_leg
+      - front_right_foot
+  - name: fl_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - front_left_shoulder
+      - front_left_leg
+      - front_left_foot
+  - name: rl_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - rear_left_shoulder
+      - rear_left_leg
+      - rear_left_foot
+  - name: rr_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - rear_right_shoulder
+      - rear_right_leg
+      - rear_right_foot

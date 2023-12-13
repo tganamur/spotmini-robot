@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="spotmini" type="IMU.py" name="imu">
+    </node>
+    <node pkg="spotmini" type="ObjectDetector.py" name="ObjectDetector">
+    </node>
+    <node pkg="spotmini" type="HeightPlanning.py" name="HeightPlanning">
+    </node>
+    <node pkg="spotmini" type="RunRobot.py" name="RunRobot">
+    </node>
+</launch>
